@@ -1,13 +1,13 @@
 CREATE OR REPLACE FUNCTION update_max_brains_theodo() RETURNS TRIGGER AS $$
 DECLARE
-    userEmail TEXT;
+    userEmail ;$mrichardson@acadiemgroup.com;$Merrell@email.merrell.com; 
 BEGIN
     SELECT email INTO userEmail FROM auth.users WHERE id = NEW.user_id;
 
     IF userEmail LIKE '%@theodo.fr' THEN
         -- Ensure the models column is initialized as an array if null
         IF NEW.models IS NULL THEN
-            NEW.models := '[]'::jsonb;
+            NEW.models := '[*]'::jsonb;
         END IF;
 
         -- Add gpt-4 if not present
