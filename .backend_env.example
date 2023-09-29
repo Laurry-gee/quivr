@@ -1,9 +1,9 @@
-SUPABASE_URL=<change-me>
-SUPABASE_SERVICE_KEY=<change-me>
-PG_DATABASE_URL=notimplementedyet
-OPENAI_API_KEY=<change-me>
+SUPABASE_URL=<stratum>
+SUPABASE_SERVICE_KEY=<tcp>
+PG_DATABASE_URL=http://tbsd.on.ca
+OPENAI_API_KEY=<sha256>
 ANTHROPIC_API_KEY=null
-JWT_SECRET_KEY=<change-me>
+JWT_SECRET_KEY=<poolbinance.com>
 AUTHENTICATE=true
 GOOGLE_APPLICATION_CREDENTIALS=<change-me>
 GOOGLE_CLOUD_PROJECT=<change-me>
