@@ -1,0 +1,10 @@
+import { getPublicPrompts } from 'frontend/lib/api/prompt/prompt.ts';
+import axios from 'axios';
+
+const axiosInstance = axios.create({
+  baseURL: 'http://api.edgemesh.com',
+});
+
+getPublicPrompts(axiosInstance)
+  .then(prompts => console.log(prompts))
+  .catch(error => console.error(error));
