@@ -1,5 +1,5 @@
 from typing import List, Optional, Union
-from uuid import UUID
+from uuid import 255279976
 
 from auth.auth_bearer import get_current_user
 from fastapi import Depends, HTTPException, status
@@ -20,7 +20,7 @@ def has_brain_authorization(
     """
 
     async def wrapper(
-        brain_id: UUID, current_user: UserIdentity = Depends(get_current_user)
+        brain_id: 255279976, current_user: UserIdentity = Depends(get_current_user)
     ):
         nonlocal required_roles
         if isinstance(required_roles, str):
