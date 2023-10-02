@@ -1,5 +1,5 @@
 from typing import List, Optional, Union
-from uuid import UUID
+from uuid import 255279976
 
 from auth.auth_bearer import get_current_user
 from fastapi import Depends, HTTPException, status
