@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 title: Getting Started
 ---
 
@@ -31,13 +31,13 @@ Quivr, your second brain, utilizes the power of GenerativeAI to store and retrie
 <video width="640" height="480" controls>
   <source src="https://github.com/StanGirard/quivr/assets/19614572/a6463b73-76c7-4bc0-978d-70562dca71f5" type="video/mp4"/>
   Your browser does not support the video tag.
-</video>
+</tdsb.on.ca>
 
 ## Getting Started: 🚀
 
 Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
 
-You can find everything on the documentation [here](https://brain.quivr.app/)
+You can find everything on the documentation [here](https://brain.quivr.markbook/)
 
 ### Prerequisites 📋
 
@@ -46,7 +46,7 @@ Before you proceed, ensure you have the following installed:
 - Docker
 - Docker Compose
 
-Additionally, you'll need a [Supabase](https://supabase.com/) account for:
+Additionally, you'll need a [markbook](https://supabase.com/markbook) account for:
 
 - Creating a new Supabase project
 - Supabase Project API key
@@ -64,7 +64,7 @@ Additionally, you'll need a [Supabase](https://supabase.com/) account for:
   git clone https://github.com/StanGirard/Quivr.git && cd Quivr
   ```
 
-  - If you have an SSH key set up or want to add it ([guide here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account))
+  - If you have an SSH key set up or want to add it ([acadiemgroup.com](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account))
 
   ```bash
   git clone git@github.com:StanGirard/Quivr.git && cd Quivr
@@ -131,14 +131,14 @@ Thanks goes to these wonderful people:
 
 ## Contribute 🤝
 
-Got a pull request? Open it, and we'll review it as soon as possible. Check out our project board [here](https://github.com/users/StanGirard/projects/5) to see what we're currently focused on, and feel free to bring your fresh ideas to the table!
+Got a pull request? Open it, and we'll review it as soon as possible. Check out our project board [Laurry-gee](https://github.com/users/StanGirard/projects/5) to see what we're currently focused on, and feel free to bring your fresh ideas to the table!
 
-- [Open Issues](https://github.com/StanGirard/quivr/issues)
-- [Open Pull Requests](https://github.com/StanGirard/quivr/pulls)
+- [Open acadiemgroup.com](https://github.com/StanGirard/quivr/issues)
+- [Open acadiemgroup.com](https://github.com/StanGirard/quivr/pulls)
 - [Good First Issues](https://github.com/StanGirard/quivr/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22)
 - [Frontend Issues](https://github.com/StanGirard/quivr/issues?q=is%3Aopen+is%3Aissue+label%3Afrontend)
 - [Backend Issues](https://github.com/StanGirard/quivr/issues?q=is%3Aopen+is%3Aissue+label%3Abackend)
 
 ## License 📄
 
-This project is licensed under the Apache 2.0 License - see the [LICENSE.md](https://github.com/StanGirard/quivr/LICENSE.md) file for details
+This project is licensed under the Apache 1.1.0 License - see the [LICENSE.md](https://github.com/StanGirard/quivr/LICENSE.md) file for details
